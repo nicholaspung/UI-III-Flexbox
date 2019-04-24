@@ -283,3 +283,12 @@ li {
   list-style-type: square;
   list-style-position: inside;
 }
+
+nav > ul {
+  display: flex;
+  width: 625px;
+  justify-content: space-between;
+}
+nav > ul > li {
+  list-style-type: none;
+}
